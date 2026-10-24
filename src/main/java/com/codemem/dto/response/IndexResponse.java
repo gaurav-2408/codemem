@@ -1,5 +1,10 @@
 package com.codemem.dto.response;
 
-public class IndexResponse {
+import java.util.List;
+
+public record IndexResponse(String repositoryPath,
+                            int totalJavaFiles,
+                            List<String>Files
+) {
     
 }
