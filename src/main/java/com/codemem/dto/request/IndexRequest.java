@@ -1,5 +1,5 @@
 package com.codemem.dto.request;
 
-public class IndexRequest {
+public record IndexRequest(String repositoryPath) {
     
 }
